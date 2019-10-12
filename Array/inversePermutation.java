@@ -24,5 +24,6 @@ class InversePermutation{
             }
             T--;
         }
+        sc.close();
     }
 }
