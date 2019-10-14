@@ -4,9 +4,11 @@ class InversePermutation{
     public static void main(String args[]){
         int T,N,index,temp;
         Scanner sc = new Scanner(System.in);
+        System.out.println("\nTest Cases:");
         T = sc.nextInt();
 
         while(T>0){
+            System.out.println("Size of array:");
             N = sc.nextInt();
             int arr[] = new int[N];
             int arr2[]= new int[N];

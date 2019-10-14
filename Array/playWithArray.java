@@ -5,9 +5,11 @@ class PlayWithArray{
         int T,N,t1,t2;
         
         Scanner sc = new Scanner(System.in);
+        System.out.println("Test Cases:");
         T = sc.nextInt();
 
         while(T>0){
+            System.out.println("Size of Array:");
             N = sc.nextInt();
             int arr[] = new int[N];
 
